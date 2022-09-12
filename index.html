@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="Application.js" defer></script>
+    <link rel="shortcut icon" href="#">
+    <title>Estacionamento</title>
+</head>
+<body>
+    <div id="container">
+        <div id="menu">
+            <input type="button" id="estacionar" value="estacionar">
+            <input type="button" id="liberar" value="liberar">
+            <input type="button" id="geraRel" value="Gera Relatorio">
+            <input type="button" id="saldobtt" value="Saldo">
+        </div>
+
+        <form id="entrada" class="display">
+            <p><input type="checkbox"  id="motoCheck"> moto  <input type="checkbox"  id="carCheck"> carro</p>
+            <input type="text" id="idInp" placeholder="id">
+            <input type="text" id="placaInp" placeholder="placa">
+            <input type="text" id="marcaInp" placeholder="marca">
+            <input type="text" id="corInp"   placeholder="cor">
+            <input type="text" id="nomePropInp" placeholder="Proprietario">
+            <input type="button" id="cadBtt" value="OK">
+        </form>
+
+        <form id="libera" class="display">
+            <input type="text" id="placaLib" placeholder="Placa do veiculo">
+            <input type="button" id="okLib" value="libera">
+        </form>
+
+        <form id="relatorio" class="display">
+
+        </form>
+
+        <form id="saldo" class="display">
+
+        </form>
+    </div>
+</body>
+</html>
